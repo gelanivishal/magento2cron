@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Cron:etc/crontab.xsd">
+    <group id="default">
+        <!-- instance : contain class name which function we want to run on defined time -->
+        <!-- method : contain method name which run on defined time -->
+        <job name="custome_cron_job_name" instance="Gelani\Vishal\Cron\CustomClassName" method="execute">
+            <schedule>*/30 * * * *</schedule> <!-- here we define time that when function execute  -->
+        </job>
+    </group>
+</config>
