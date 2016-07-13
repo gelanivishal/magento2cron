@@ -1,5 +1,5 @@
 <?php
-namespace Gelani\Vishal\Cron;
+namespace Namespace\Module\Cron;
 use \Psr\Log\LoggerInterface;
 
 /**

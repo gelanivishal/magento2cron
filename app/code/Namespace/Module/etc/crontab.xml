@@ -3,7 +3,7 @@
     <group id="default">
         <!-- instance : contain class name which function we want to run on defined time -->
         <!-- method : contain method name which run on defined time -->
-        <job name="custome_cron_job_name" instance="Gelani\Vishal\Cron\CustomClassName" method="execute">
+        <job name="custome_cron_job_name" instance="Namespace\Module\Cron\CustomClassName" method="execute">
             <schedule>*/30 * * * *</schedule> <!-- here we define time that when function execute  -->
         </job>
     </group>
